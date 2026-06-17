@@ -1,12 +1,12 @@
 #include<stdio.h>
-void disp_reverse(int);
+void disp_reverse_number(int);
 int main()
 {
     int x;
-    disp_reverse(x);
+    disp_reverse_number(x);
 }
 
-void disp_reverse(int x)
+void disp_reverse_number(int x)
 {
     int ones, reverse = 0;
 
