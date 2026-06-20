@@ -1,11 +1,14 @@
 #include<stdio.h>
+
 void disp_count_sum(int);
+
 int main()
 {
-	int x;
-	disp_disp_count_sum(x);
+    int x;
+    disp_count_sum(x);
 }
-void disp_disp_count_sum(int x)
+
+void disp_count_sum(int x)
 {
     int n, digit, sum, count = 0;
 
@@ -15,6 +18,7 @@ void disp_disp_count_sum(int x)
     {
         n = x;
         sum = 0;
+
         while(n > 0)
         {
             digit = n % 10;
