@@ -3,7 +3,7 @@ void disp_two_digit_square(int);
 int main()
 {
 	int x;
-	disp_single_digit_square(x);
+	disp_two_digit_square(x);
 }
 void disp_two_digit_square(int x)
 {
